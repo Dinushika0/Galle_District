@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>	
 		<title>Galle District</title>
@@ -5,11 +6,26 @@
 			h1{
 				color:white;
 				text-align:center;
-				font-size:80px;
-				background-color:rgb(64,64,64,0.5);
+				font-size:70px;
 				margin-bottom:-3px;
+				margin-top:-3px;
 			}
-
+			img{
+				width:100%;
+			}
+			.container{
+				position:relative;
+			}
+			.text-block{
+				position: absolute;
+  				bottom: 20px;
+  				right: 20px;
+				background-color:#737373
+;
+ 				color: white;
+  				padding-left: 20px;
+  				padding-right: 20px;
+			}
 
 			.container1{
 				display:flex;
@@ -42,18 +58,20 @@
 	</head>
 
 	<body>	
-
-		<h1>The Gem Places in Galle District</h1>
-		<img src="Image/Galle-Fort-Sri-Lanka-1.jpg"  width=100% height=80% ">
-
+		<div class="container">
+			<img src="Image/Galle-Fort-Sri-Lanka-1.jpg"  width=128 height=600 ">
+			<div class="text-block">
+				<h1>The Gem Places in Galle District</h1>
+			</div>
+		</div>
 		<div class="container1">
 			<div class="firstsq"><h2 style="margin-left:10px;font-family:Lucida Console;font-size:250%">Contents</h2>
 				<ul style="line-height:180%;font-size:180%;font-family:Arial;">
-					<li >Historical Landmarks</li>
-					<li>Natural Attractions</li>
-					<li>Cultural Landmarks</li>
-					<li>Scenic Views</li>
-					<li>Local Markets and shopping
+					<li ><a href="Historical_Landmarks.html">Historical Landmarks</a></li>
+					<li><a href="Natural_Attractions.html">Natural Attractions</a></li>
+					<li><a href="Cultural_Landmarks.html">Cultural Landmarks</a></li>
+					<li><a href="Scenic_Views.html">Scenic Views</a></li>
+					<li><a href="Local_Markets_and_shopping.html">Local Markets and shopping</a></li>
 				</ul>
 
 			</div>
@@ -75,7 +93,7 @@
 
 <p>In essence, Galle District stands as a testament to Sri Lanka's rich tapestry of history, culture, and natural splendor, inviting all who wander to uncover its hidden treasures and embrace the warmth of its hospitality.</p> </div>
 		
-			</div>
+		</div>
 	
 	</body>
 </html>
