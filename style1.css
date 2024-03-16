@@ -1,0 +1,17 @@
+h1{
+	font-family:Lucida Console;
+}
+img{
+	width:500px;
+	height:500px;
+}
+
+td{
+	text-align: justify;
+  	text-justify:inter-word;
+	padding:60px;
+}
+
+th{
+	text-align:left;
+}
