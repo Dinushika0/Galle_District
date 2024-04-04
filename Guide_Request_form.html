@@ -2,57 +2,13 @@
 <html>
 	<head>	
 		<title>Guide Request Form</title>
-		<style>
-			#part{
-				display:flex;
-			}
-			#margin{
-				margin-right:50px;
-			}
-			form{
-				width:25%;
-				align:center;
-				margin-left:auto;
-				margin-right:auto;
-			}
-			input[type=text], select {
-  			width: 100%;
-  			padding: 12px 20px;
-			border: 1px solid #6b6b47;
-  			border-radius: 4px;
- 			margin: 8px 0;
-  			display: inline-block;
-  			box-sizing: border-box;
-			}
-			textarea[name=text], select {
-			width: 100%;
-  			padding: 12px 20px;
-			border: 1px solid #6b6b47;
-  			border-radius: 4px;
- 			margin: 8px 0;
-  			display: inline-block;
-  			box-sizing: border-box;
-			}
-			select[name=text],select{
-			border: 1px solid #6b6b47;
-			}
-			label[for=Mbig],select{
-				font-size:23px;
-			}
-			label[for=Mbig],select{
-				font-size:20px;
-			}
-			label[for=small],select{
-				font-size:14px;
-			}
-			
-		</style>
+		<link rel="stylesheet" type="text/css" href="styleForm.css">
 	</head>
 
 	<body>	
-		<h1><center>GUIDE REQUEST FORM</center></h1>
-		<form>	
-					<label for="Mbig">Personal Detsils:</label><br><br>
+		<h1><center><u>GUIDE REQUEST FORM</u></center></h1>
+		<form style="font-family: Arial">	
+					<label for="Mbig"><b>Personal Detsils:</b></label><br><br>
 					<label for="big">Name</label><br>
 			<div id="part">
 				<div id="margin">
@@ -76,7 +32,7 @@
 				</div>
 			</div>
 
-					<label for="big">Gender</label><br>
+					<label for="big">Gender</label><br><br>
 					<input type="radio" name="sex" id="male" value="male">
 					<label for="male">Male</label>
 
@@ -103,7 +59,7 @@
 					<input type="text" id="state" name="state"><br>
 					<label for="state">State/Province</label><br><br>
 					
-					<label for="Mbig">Travel Detsils:</label><br><br>
+					<label for="Mbig"><b>Travel Detsils:</b></label><br><br>
 
 					<label for="big">Purpose of trave</label><br>
 					<input type="text" id="purpose" name="purpose"><br><br>
@@ -113,7 +69,7 @@
 
 					<label for="big">Date</label><br>
 					<input type="text" id="date" name="date"><br>
-					<label for="date1">(The initial date of your intended travel)</label><br><br>
+					<label for="small">(The initial date of your intended travel)</label><br><br>
 
 					<label for="big">Estimated duration of travel</label><br>
 					<input type="text" id="day" name="day">
@@ -144,7 +100,12 @@
 					beautyGalle@gamil.com
 					</p>
 
-					<input type="submit" value="Submit">
+					<button onclick="myfunction()">Submit</button>
+					<script>
+						function myfunction(){
+						alert("You have successfully submitted!.We will response soon.");
+					}
+					</script>
 			
 		</form>
 	</body>
