@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+		<title>Guide Request Form</title>
+		<style>
+			#part{
+				display:flex;
+			}
+			#margin{
+				margin-right:50px;
+			}
+			form{
+				width:25%;
+				align:center;
+				margin-left:auto;
+				margin-right:auto;
+			}
+			input[type=text], select {
+  			width: 100%;
+  			padding: 12px 20px;
+			border: 1px solid #6b6b47;
+  			border-radius: 4px;
+ 			margin: 8px 0;
+  			display: inline-block;
+  			box-sizing: border-box;
+			}
+			textarea[name=text], select {
+			width: 100%;
+  			padding: 12px 20px;
+			border: 1px solid #6b6b47;
+  			border-radius: 4px;
+ 			margin: 8px 0;
+  			display: inline-block;
+  			box-sizing: border-box;
+			}
+			select[name=text],select{
+			border: 1px solid #6b6b47;
+			}
+			label[for=Mbig],select{
+				font-size:23px;
+			}
+			label[for=Mbig],select{
+				font-size:20px;
+			}
+			label[for=small],select{
+				font-size:14px;
+			}
+			
+		</style>
+	</head>
+
+	<body>	
+		<h1><center>GUIDE REQUEST FORM</center></h1>
+		<form>	
+					<label for="Mbig">Personal Detsils:</label><br><br>
+					<label for="big">Name</label><br>
+			<div id="part">
+				<div id="margin">
+					<input type="text" id="fname" name="fname"><br>
+					<label for="small">First name</label><br><br>
+				</div>
+				<div>
+					<input type="text" id="lname" name="lname"><br>
+					<label for="small">Last name</label><br><br>
+				</div>
+			</div>
+					<label for="big">Phone Number</label><br>
+			<div id="part">
+				<div id="margin">
+					<input type="text" id="pnumber" name="pnumber"><br>
+					<label for="small">Please enter valid number</label><br><br>
+				</div>
+				<div>
+					<input type="text" id="pnumber" name="pnumber"><br>
+					<label for="small">(Another)</label><br><br>
+				</div>
+			</div>
+
+					<label for="big">Gender</label><br>
+					<input type="radio" name="sex" id="male" value="male">
+					<label for="male">Male</label>
+
+					<input type="radio" name="sex" id="female" value="female">
+					<label for="female">Female</label><br><br>
+
+					<label for="big">NIC/Passport number</label><br>
+					<input type="text" id="NIC" name="NIC"><br><br>
+
+					<label for="big">E-mail</label><br>
+					<input type="text" id="email" name="email"><br><br>
+
+					<label for="big">Address</label><br>
+			<div id="part">
+				<div id="margin">
+					<input type="text" id="streetaddress" name="streetaddress"><br>
+					<label for="small">Street address</label><br>
+				</div>
+				<div>
+					<input type="text" id="streetaddress1" name="streetaddress1"><br>
+					<label for="small">Street address line 2</label><br><br>
+				</div>
+			</div>
+					<input type="text" id="state" name="state"><br>
+					<label for="state">State/Province</label><br><br>
+					
+					<label for="Mbig">Travel Detsils:</label><br><br>
+
+					<label for="big">Purpose of trave</label><br>
+					<input type="text" id="purpose" name="purpose"><br><br>
+
+					<label for="big">Places you visit</label><br>
+					<input type="text" id="purpose" name="purpose"><br><br>
+
+					<label for="big">Date</label><br>
+					<input type="text" id="date" name="date"><br>
+					<label for="date1">(The initial date of your intended travel)</label><br><br>
+
+					<label for="big">Estimated duration of travel</label><br>
+					<input type="text" id="day" name="day">
+					<label for="days1">Days</label><br><br>
+
+					<label for="big">Number of travelers</label><br>
+					<input type="text" id="travelers" name="travelers"><br><br>
+
+					<label for="big">Do you need a car/van rental?</label><br>
+					<input type="checkbox" name="vehicle" id="car">
+					<label for="yes">Yes</label>
+
+					<input type="checkbox" name="vehicle" id="car">
+					<label for="no">No</label><br><br>
+					
+					<label for="big">Do you need hostel accomodation?</label><br>
+					<select name="accomodation" id="accomodation">
+						<option value="yes">Yes</option>
+						<option value="No">No</option>
+					</select><br><br>
+					
+					<label for="big">Additional comments</label><br><br>
+					<textarea name="text" rows="10" cols="30">
+					</textarea><br><br>
+
+					<p>Contact us for futher information<br>
+					+94765390344 <br>
+					beautyGalle@gamil.com
+					</p>
+
+					<input type="submit" value="Submit">
+			
+		</form>
+	</body>
+</html>
