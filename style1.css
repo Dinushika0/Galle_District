@@ -1,6 +1,9 @@
+/*Changes of heading*/
 h1{
 	font-family:Lucida Console;
 }
+
+/*Changes of all image using in webpages*/
 img{
 	width:500px;
 	height:500px;
@@ -8,15 +11,14 @@ img{
 	margin-top:20px;
 }
 
+/*Changes of paragraphs*/
 td{
 	text-align: justify;
   	text-justify:inter-word;
 	padding:60px;
 }
 
-th{
-	text-align:left;
-}
+/*Paragraph font size*/
 font{
 	font-size:17px;
 }

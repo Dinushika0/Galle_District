@@ -2,15 +2,19 @@
 	display:flex;
 }
 
+/*Give space between short input elements*/
 #margin{
-	margin-right:50px;
+	margin-right:20px;
 }
+
+
 form{
-	width:25%;
-	align:center;
-	margin-left:auto;
+	width:25%;                                                    
+	margin-left:auto;			
 	margin-right:auto;
 }
+
+/*Changes in the input type text*/
 	input[type=text], select {
   	width: 100%;
   	padding: 12px 20px;
@@ -20,9 +24,11 @@ form{
   	display: inline-block;
   	box-sizing: border-box;
 }
+
+/*Changes in the textarea element name text*/
 textarea[name=text], select {
 	width: 100%;
-  	padding: 12px 20px;
+	padding: 12px 20px;
 	border: 1px solid #6b6b47;
   	border-radius: 4px;
  	margin: 8px 0;
@@ -30,30 +36,37 @@ textarea[name=text], select {
   	box-sizing: border-box;
 }
 
+/*Changes in the select element name text*/
 select[name=text],select{
 	border: 1px solid #6b6b47;
 }
 
+/*Fonts want to be bigger than on other labels*/
 label[for=Mbig],select{
 	font-size:23px;
 }
-			
+
+/*Medium size font,smaller than Mbig*/			
 label[for=big],select{
 	font-size:18px;
 }
 
+/*Fonts want to be smaller than on other labels*/
 label[for=small],select{
 	font-size:14px;
 }
-			
+
+/*body color*/			
 body{
 	background-color:#e0e0d1
 }
-			
+
+/*header size*/			
 h1{
 	font-size:40px
 }
-			
+
+/*Changes of submit button*/			
 button{
  	width: 100%;
  	background-color: #5b5b3e;

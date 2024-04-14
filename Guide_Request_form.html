@@ -7,7 +7,7 @@
 
 	<body>	
 		<h1><center><u>GUIDE REQUEST FORM</u></center></h1>
-		<form style="font-family: Arial">	
+		<form style="font-family: Arial" name="MyForm" >	
 					<label for="Mbig"><b>Personal Detsils:</b></label><br><br>
 					<label for="big">Name</label><br>
 			<div id="part">
@@ -61,7 +61,7 @@
 					
 					<label for="Mbig"><b>Travel Detsils:</b></label><br><br>
 
-					<label for="big">Purpose of trave</label><br>
+					<label for="big">Purpose of travel</label><br>
 					<input type="text" id="purpose" name="purpose"><br><br>
 
 					<label for="big">Places you visit</label><br>
@@ -101,9 +101,10 @@
 					</p>
 
 					<button onclick="myfunction()">Submit</button>
-					<script>
+					<script>			
 						function myfunction(){
-						alert("You have successfully submitted!.We will response soon.");
+							
+								alert('You have successfully submitted!.We will response soon.');	
 					}
 					</script>
 			
